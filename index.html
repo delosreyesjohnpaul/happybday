@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+</head>
+<body>
+  <div class="card">
+    <img src="./img/birthday.svg" alt="birthday" class="birthday">
+    <div class="text">
+      <h2>Happy Birthday <span>Cali!</span></h2>
+      <p align="justify"><span class="auto-type"></span></p>
+    </div>
+    <div class="space"></div>
+  </div>
+
+   <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })  
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>   
+
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Welcome to the new chapter in the beautiful story of your life, Life is precious. Every moment is sweet. What matters most in life is you are being here.", "Your smile is purpose for celebration. Your love is the maximum valuable present within side the world. Your kiss can light a thousand birthday candles.  Happy Birthday to someone who makes life itself feel like a special occasion and", "May you provide solace and peace to every soul you encounter. May every friend you hug bring joy and comfort. On your special day, my wish for you is to have everything that your heart desires because you are worth it. And once again Happy Birthday to my favorite Girl!!" ],
+        typeSpeed: 60,
+        backSpeed: 40,
+        loop: true
+    })
+</script>
+</body>
+</html>
